@@ -54,9 +54,6 @@
     <string name="error_invalid_password">enter valid password</string>
 
 
-
-
-
     <string name="name">Beautician Name</string>
     <string name="age">Age</string>
     <string name="address">address</string>

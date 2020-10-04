@@ -2,6 +2,7 @@ package com.example.coolcutz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +14,8 @@ public class MainActivity extends AppCompatActivity{
     ImageButton Ibutton;
     Button bt1;
     Button bt2;
-
+    Button btn12;
+    Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +50,14 @@ public class MainActivity extends AppCompatActivity{
                 Intent intent = new Intent(MainActivity.this, Register.class);
                 startActivity(intent);
 
+            }
+        });
+
+        btn12 =  findViewById(R.id.button12);
+        btn12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(context, ContactUs.class));
             }
         });
 
