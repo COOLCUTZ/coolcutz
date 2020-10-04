@@ -12,13 +12,11 @@ public class DBHandler extends SQLiteOpenHelper {
     public static final String DB_NAME = "CoolCutz";
     public static final String TABLE_NAME = "Register";
 
-
     public static final String COLS_1= "ID";
     public static final String COLS_2= "name";
     public static final String COLS_3= "email";
     public static final String COLS_4 = "phone";
     public static final String COLS_5 = "password";
-
 
     public DBHandler(@Nullable Context context) {
         super(context, DB_NAME, null, VERSION);

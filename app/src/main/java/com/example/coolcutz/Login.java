@@ -56,7 +56,6 @@ public class Login extends AppCompatActivity {
 
         });
 
-
         _register1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
