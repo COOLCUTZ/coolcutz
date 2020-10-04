@@ -30,7 +30,7 @@ public class DBHandler_m extends SQLiteOpenHelper {
     private static final String STARTED = "started";
     private static final String FINISHED = "finished";
 
-
+/////
     public DBHandler_m(@Nullable Context context) {
 
         super(context, DB_NAME, null, VERSION);
