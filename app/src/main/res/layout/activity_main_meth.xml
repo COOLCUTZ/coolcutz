@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:soundEffectsEnabled="true"
+    tools:context=".MainActivityMeth">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="179dp"
+        android:layout_height="153dp"
+        android:adjustViewBounds="false"
+        android:background="#ff8a65"
+        android:cropToPadding="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.261"
+        app:srcCompat="@drawable/beautiful" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="324dp"
+        android:layout_height="79dp"
+        android:fontFamily="serif"
+        android:text="@string/RamaniFernando"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.723"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="168dp"
+        android:fontFamily="sans-serif"
+        android:text='For over 30 years, the name Ramani Fernando is synonymous with Hair and Beauty in the South Asian region. This is a story of a childhood hobby of messing around with friends" hair turning into a large business.  Ramani Fernando Salons is the foremost chain of Hair and Beauty salons in Sri Lanka and are located in some of the most prestigious addresses in the country.'
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.791" />
+
+    <Button
+        android:id="@+id/next1"
+        android:layout_width="98dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/custom_rounded_corners"
+        android:fadingEdge="horizontal|vertical"
+        android:soundEffectsEnabled="true"
+        android:text="@string/next"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <Button
+        android:id="@+id/app1"
+        android:layout_width="203dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/custom_rounded_corners"
+        android:soundEffectsEnabled="true"
+        android:text="@string/select"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBaseline_toBaselineOf="@+id/next1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/next1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edittxtphone" type="id">Phone</item>
+    <item name="updatephone" type="id">phone</item>
+    <item name="updatecusname" type="id">updatecus</item>
+    <item name="updatebeautyname" type="id">updatebeauty</item>
+    <item name="textView13" type="id">txt13view</item>
+    <item name="btnupdate" type="id">btnupdatem</item>
+    <item name="btnsee" type="id">btnseeee</item>
+    <item name="date" type="id">datem</item>
+    <item name="btnGoCalendar" type="id">btncalenders</item>
+    <item name="edittxtbeauty" type="id">txtbeauty</item>
+    <item name="edittxtcusname" type="id">editcusnam</item>
+    <item name="btnadd" type="id">btnadds</item>
+    <item name="btnedits" type="id">btneditsd</item>
+</resources>

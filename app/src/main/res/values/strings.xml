@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Cool Cutz</string>
+    <string name="app_name">COOL CUTZ</string>
     <string name="btn1">About Us</string>
     <string name="btn2">Services</string>
     <string name="btn3">Book App</string>
@@ -52,6 +52,32 @@
     <string name="phone_error">ernter phone number</string>
     <string name="password_error">ernter password</string>
     <string name="error_invalid_password">enter valid password</string>
+
+
+
+
+
+    <string name="name">Beautician Name</string>
+    <string name="age">Age</string>
+    <string name="address">address</string>
+    <string name="RamaniFernando">"Ramani Fernando "</string>
+    <string name="next">next</string>
+    <string name="NayanaKarunaratne">Nayana Karunaratne</string>
+    <string name="next2">NEXT</string>
+    <string name="BernieBalasuriya">Bernie Balasuriya</string>
+    <string name="next3">NEXT</string>
+    <string name="date">Select Date : </string>
+    <string name="select">Select for Appoinment</string>
+    <string name="selectapp">Select for Appoinment</string>
+    <string name="app3">Select for Appoinment</string>
+    <string name="Ok">OK</string>
+    <string name="personname">Enter Beautician Name</string>
+    <string name="enterpname">Enter Beautician\'s Name</string>
+    <string name="yourname">Your Name</string>
+    <string name="delete">DELETE</string>
+    <string name="phonenumber">PhoneNumber</string>
+    <string name="spinner_title" />
+    <string name="validat">validate</string>
 
 
 </resources>
