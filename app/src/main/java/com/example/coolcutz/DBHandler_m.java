@@ -15,8 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DBHandler_m extends SQLiteOpenHelper {
-
-
+    ///////////
 
     private Context context;
     private static final int VERSION = 4;
