@@ -15,7 +15,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Map"></activity>
+        <activity android:name=".MyDatabaseHelper"></activity>
+        <activity android:name=".Feedback1" />
+        <activity android:name=".Booking3" />
+        <activity android:name=".Booking2" />
+        <activity android:name=".Myhelper" />
+        <activity android:name=".Booking1" />
+        <activity android:name=".Map" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
